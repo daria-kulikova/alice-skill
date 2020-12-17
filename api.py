@@ -1,3 +1,8 @@
+
+from google.cloud import storage
+
+storage_client = storage.Client.from_service_account_json('Alica-b68ae86bead3.json')
+
 def handler(event, context):
     """
     Entry-point for Serverless Function.
