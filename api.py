@@ -20,3 +20,5 @@ def handler(event, context):
             'end_session': 'false'
         },
     }
+	
+handler()
