@@ -1,7 +1,4 @@
 
-from google.cloud import storage
-
-storage_client = storage.Client.from_service_account_json('Alica-b68ae86bead3.json')
 
 # coding: utf-8
 # Импортирует поддержку UTF-8.
